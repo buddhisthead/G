@@ -1,0 +1,7 @@
+g.cmo: 
+g.cmx: 
+g2c.cmo: glex.cmo ggram.cmi g.cmo 
+g2c.cmx: glex.cmx ggram.cmi g.cmx 
+glex.cmo: ggram.cmi 
+glex.cmx: ggram.cmi 
+ggram.cmi: g.cmo 
